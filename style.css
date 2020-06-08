@@ -1,0 +1,122 @@
+.navbar{
+    background-color: black !important;
+}
+
+.nav-link{
+
+    color:white !important;
+    font-weight: bold;
+}
+
+.fa-shopping-cart,.fa-user{
+    font-size: 30px  !important;
+    color: yellow;
+}
+
+a:hover {
+    background-color: rgba(241, 241, 113, 0.767);
+  }
+
+.navbar-brand{
+color: yellow !important;
+}
+
+.fa-truck,.fa-phone-square,.fa-heart{
+    font-size: 50px !important;
+    margin-right: 10px;
+}
+
+.card1,.card2,.card3{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: black ;
+    color: white;
+    box-shadow: 2px 4px 5px black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.maincard{
+    margin-top: 30px;
+    display :flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.newarrival{
+    margin-top: 30px;
+}
+
+.Heading{
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+
+}
+.Heading > h1{
+text-shadow: 2px 2px 4px black;
+}
+
+.card{
+    width: 250px;
+    height: auto ;
+    margin-bottom: 100px;
+}
+.card-text{
+    font-weight: bold;
+}
+
+.btn-primary{
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: rgba(241, 241, 113, 0.767) ;
+}
+
+.footer{
+        width: 100%;
+        background-color: black;
+        color: white;
+        height: 70px;
+}
+
+.footer > div {
+        text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .card1,.card2,.card3{
+        width: 100%;
+    }
+  }
+
+.Heading1,.Heading2,.Heading3,.Heading4{
+    text-align: center;
+    font-weight: bold;
+}
+
+iframe{
+    width: 75%;
+    height: 500px;
+    margin-left: 175px;
+}
+
+.Container1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.aboutdes{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+
+}
